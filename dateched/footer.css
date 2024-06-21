@@ -1,0 +1,124 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.footer {
+    background-color: #2C2C2C;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    top: 1200px;
+    padding: 50px;
+    width: 100%;
+    height: 260px;
+    text-align: center;
+    position: relative; 
+    z-index: 1; 
+}
+.logo {
+    font-weight: 900;
+    font-size: 20px;
+    font-family: Roboto;
+    position: relative;
+    top: 20px;
+}
+.contacts {
+    width: 30%;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Roboto;
+    text-align: left;
+    line-height: 40px;
+    left: 100px;
+    position: relative;
+
+}
+.info {
+    width: 30%;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Roboto;
+    text-align: left;
+    line-height: 40px;
+    left: 200px;
+    position: relative;
+
+}
+.social-media{
+    width: 30%;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: Roboto;
+    text-align: left;
+    line-height: 40px;
+    position: relative;
+    top: 20px;
+    
+}
+.contacts ul {
+    list-style-type: none;
+    font-size: 14px;
+    font-style: normal;
+    margin-bottom: 20px;
+    line-height: 60px;
+    left: -30px;
+    position: relative;
+    font-family: Roboto;
+    font-weight: 500;
+    letter-spacing: 0.03em;   
+    
+}
+.info ul{
+    list-style-type: none;
+    font-size: 15px;
+    font-style: normal;
+    position: relative;
+    left: -40px;
+    line-height: 40px;
+    font-family: Roboto;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    
+
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #888; 
+    right: 400px;
+    position: relative;
+    top: -40px;
+}
+.footer-line {
+    width: 100%; 
+    height: 1px; 
+    background-color: #C8C8C880; 
+    margin-bottom: 10px; 
+    position: absolute;
+    top: 300px;
+    left: 2px;
+    box-sizing: border-box; 
+}
+.footer-text {
+    color: #C8C8C880; 
+    font-size: 14px; 
+    margin: 0; 
+    position: absolute;
+    top: 300px;
+    left: 600px;
+}
+w1{
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: left;
+    
+}

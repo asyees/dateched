@@ -1,0 +1,70 @@
+.w4{
+width: 1319px;
+height: 501px;
+top: -50px;
+left: 650px;
+border: 1px 0px 0px 0px;
+position: relative;
+}
+
+p2{
+position: relative;
+top: -340px;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 21.09px;
+text-align: left;
+right: 60px;
+}
+p3{
+position: relative;
+top: -310px;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 300;
+line-height: 20px;
+right: 195px;
+}
+p4{
+text-align: left;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+position: relative;
+top: 40px;
+right: -133px;
+}
+p5{
+text-align: left;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 300;
+position: relative;
+top: 100px;
+right: -15px;
+}
+.cont{
+    background: #333333;
+    font-family: "Roboto", sans-serif;
+    padding: 15px 25px; 
+    color:  #ffffff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    position: absolute;
+    top: 570px;
+    left: 140px;
+    white-space: nowrap;
+    width: 222px;
+    height: 71px;
+    line-height: 12px;
+
+  }
+  .cont:hover {
+    background-color: #ddd;
+    color: black;
+  }

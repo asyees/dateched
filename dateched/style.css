@@ -1,0 +1,392 @@
+/* head */
+#menu {
+ float: right;
+ text-align: right;
+
+
+}
+
+#menu li {
+ list-style: none;
+ display: inline;
+ margin-left: 10px;
+
+}
+
+
+#menu {
+ font-family: 'TT Hoves Pro Trial', sans-serif;
+ color: black;
+ word-spacing: 10px;
+ text-decoration: none !important;
+ font-weight: 400;
+ position: relative;
+ left: -200px;
+}
+
+.loyot{
+  position: relative;
+  width: 277px;
+  height: 64px;
+  top: -400px;
+  left: 135px;
+  line-height: 10px;
+  
+}
+p{
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 50px;
+}
+p1{
+  position: relative;
+  top: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 60px;
+  color:  #BDBDBD;
+}
+.project-button {
+  background-color: white;
+  font-family: Roboto;
+  padding: 15px 25px; 
+  color:  #333333;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  position: absolute;
+  top: 460px;
+  left: 400px;
+  white-space: nowrap;
+}
+
+.project-button:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.rectangle {
+ width: 1170px;
+ height: 488px;
+ background-color: #FBFBFB;
+ position: relative;
+ top: 129px;
+ left: 150px;
+}
+.m {
+ width: 270px;
+ height: 265px;
+ position: absolute;
+ top: 1080px;
+ left: 250px;
+}
+.n{
+   width: 270px;
+   height: 345px;
+   position: absolute;
+   top: 1120px;
+   left: 570px;
+}
+.a{
+   width: 270px;
+   height: 140px;
+   position: absolute;
+   top: 1400px;
+   left: 250px;
+}
+p3{
+  position: absolute;
+  font-family: Roboto;
+  font-size: 64px;
+  font-weight: 300px;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #BDBDBD;
+  width: 168px;
+  height: 64px;
+  top: 1100px;
+  left: 900px;
+}
+p4{
+  position: absolute;
+  width: 400px;
+  height: 800px;
+  top: 1179px;
+  left: 900px;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 25px;
+}
+.buttonread {
+  background-color: white;
+  font-family: Roboto;
+  padding: 15px 25px; 
+  color:  #333333;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  position: absolute;
+  top: 460px;
+  left: 400px;
+  white-space: nowrap;
+  top: 1430px;
+  left: 900px;
+ 
+}
+.buttonread:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+p5{
+  position: absolute;
+  width: 880px;
+  height: 64px;
+  top: 1580px;
+  left: 150px;
+  font-family: Roboto;
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #BDBDBD;
+}
+p6{
+   font-family: 'Roboto';
+   font-size: 200px;
+   font-weight: 900;
+   line-height: 234px;
+   letter-spacing: 0em;
+   text-align: left;
+   width: 104px;
+   height: 140px;
+   position: absolute;
+   top: 1670px;
+   left: 150px;
+   color: #F2F2F2;
+}
+p8{
+  position: absolute;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 400px;
+  height: 80px;
+  top: 1720px;
+  left: 270px;
+  color: #333333;
+}
+p7{
+   font-family: Roboto;
+   font-size: 200px;
+   font-weight: 900;
+   line-height: 234px;
+   letter-spacing: 0em;
+   text-align: left;
+   width: 104px;
+   height: 140px;
+   position: absolute;
+   top: 1670px;
+   left: 700px;
+   color: #F2F2F2;
+}
+p9{
+  position: absolute;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 400px;
+  height: 80px;
+  top: 1720px;
+  left: 850px;
+  color: #333333;
+}
+p10{
+  position: absolute;
+  font-family: Roboto;
+  font-size: 64px;
+  font-weight: 300px;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 346px;
+  height: 64px;
+  top: 1900px;
+  left: 150px;
+  color: #BDBDBD;
+}
+.c{
+  position: absolute;
+  width: 570px;
+  height: 255px;
+  top: 2000px;
+  left: 150px;
+
+
+}
+.overlay {
+    position: absolute;
+    width: 570px;
+    height: 255px;
+    top: 2000px;
+    left: 150px;
+    background-color: rgba(51, 51, 51, 0.5);
+}
+p11{
+  position: absolute;
+  font-family: Roboto;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 233px;
+  height: 160px;
+  top: 2020px;
+  left: 200px;
+  color: white;
+  z-index: 4;
+
+}
+.b{
+  position: absolute;
+  width: 570px;
+  height: 255px;
+  top: 2000px;
+  left: 750px;
+}
+.d{
+  position: absolute;
+  width: 270px;
+  height: 255px;
+  top: 2280px;
+  left: 150px;
+}
+
+.e{
+  position: absolute;
+  width: 470px;
+  height: 255px;
+  top: 2280px;
+  left: 450px;
+}
+.f{
+  position: absolute;
+  width: 370px;
+  height: 255px;
+  top: 2280px;
+  left: 950px;
+}
+.view{
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: Gothic A1;
+  font-size: 12px;
+  font-weight: 400px;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+  position: absolute;
+  width: 85px;
+  height: 12px;
+  top: 2170px;
+  left: 185px;
+  z-index: 5;
+  color: white;
+  white-space: nowrap;
+}
+.all{
+    background: #333333;
+    font-family: "Roboto", sans-serif;
+    padding: 15px 25px; 
+    color:  #ffffff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    position: absolute;
+    top: 2566px;
+    left: 1100px;
+    white-space: nowrap;
+    width: 222px;
+    height: 71px;
+    line-height: 12px;
+
+  }
+  .all:hover {
+    background-color: #ddd;
+    color: black;
+  }
+p12{
+  position: absolute;
+  font-family: Roboto;
+  font-size: 64px;
+  font-weight: 300px;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 346px;
+  height: 64px;
+  top: 2650px;
+  left: 150px;
+  color: #BDBDBD;
+}
+/* form */
+form {
+    max-width: 400px;
+    position: relative;
+    top: 1400px;
+    left: 150px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    background-color: #F3F3F3; 
+}
+
+button {
+   Width: 200px;
+   height: 71px;
+   border: none;
+   background: #333333;
+   font-family: "Roboto", sans-serif;
+   padding: 15px 25px; 
+   color:  #ffffff;
+   cursor: pointer;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   transition-duration: 0.4s;
+   position: relative;
+   top: 30px;
+}
+
+.q{
+  width: 700px;
+  height: 300px;
+  position: relative;
+  top: 1070px;
+  left: 600px;
+}
+

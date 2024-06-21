@@ -1,0 +1,133 @@
+#menu {
+ float: right;
+ text-align: right;
+}
+
+#menu li {
+ list-style: none;
+ display: inline;
+ margin-left: 10px;
+}
+
+
+#menu {
+ font-family: 'TT Hoves Pro Trial', sans-serif;
+ color: black;
+ word-spacing: 10px;
+ text-decoration: none !important;
+ font-weight: 400;
+ position: relative;
+ left: -200px;
+}
+p{
+  width: 277.76px;
+  height: 64px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 64px;
+  text-align: left;
+  color: #BDBDBD;
+  top: 165px;
+  position: relative;
+  left: 135px;
+  
+
+}
+p1{
+  font-family: Roboto;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: left;
+  color: #333333;
+  top: 100px;
+  position: relative;
+  left: 135px;
+  width: 203px;
+  height: 64px;
+  gap: 0px;
+  opacity: 0px;
+
+}
+
+.myHorizontalLine {
+   width: 1170px; 
+   height: 1px; 
+   background-color: #C8C8C880; 
+   margin-bottom: 10px; 
+   position: relative;
+   top: 140px;
+   left: 135px;
+   color: #F2F2F2;
+}
+
+.gallery-container {
+   width: 1170px; /* Ширина контейнера */
+   /* height: 586px; (260px * 2 + 53px) * 2 (высота двух рядов и пространство между ними) + высота кнопок */
+   overflow: hidden;
+   position: relative;
+   top: 160px;
+   left: 135px;
+}
+
+.gallery {
+   display: flex;
+   transition: all 1s ease;
+}
+
+.gallery-block {
+   width: 1170px;
+   flex-shrink: 0;
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-gap: 10px;
+   transition: transform 0.5s ease;
+}
+
+.gallery img {
+   width: 100%;
+   height: 260px;
+   object-fit: cover;
+}
+
+.galleryGUI {
+   padding: 1rem;
+   display: flex;
+   gap:1rem;  
+   max-width: 500px;
+   position: relative;
+   top: 200px;
+   left: 120px;
+}
+
+.arrow {
+   padding: 0.25rem 2rem;
+   background: rgba(0,0,0,0.05);
+   box-shadow: rgba(0,0,0,0.25);
+   transition: all 0.3s ease;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center; /* Выравнивание по горизонтали */
+}
+
+.arrow:hover {
+   background: rgba(0,0,0,0.20);
+   box-shadow: rgba(0,0,0,0.35);
+}
+
+.arrow.left {
+   background: #b3b3b3;
+   width: 30px;
+   height: 53px;
+}
+
+.arrow.right {
+   background: #F9F9F9;
+   width: 30px;
+   height: 53px;
+   top: -20px;
+}
